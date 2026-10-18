@@ -1,0 +1,5 @@
+ip_address,alert,reason,risk_level
+192.168.1.20,Repeated failed login attempts,5 failed login attempts,MEDIUM
+192.168.1.50,Repeated failed login attempts,7 failed login attempts,MEDIUM
+192.168.1.99,Possible brute-force attack,12 failed login attempts,HIGH
+192.168.1.77,Unusual request frequency,12 events from this IP,MEDIUM
